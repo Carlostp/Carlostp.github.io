@@ -8,3 +8,25 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1{
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+h4{
+  color: purple;
+  font-weight: bold;
+}
+#summary {
+  color: green;
+}
+.skills-and-hobbies {
+  color: orange;
+}
+.photo {
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+  display: block;
+  margin: auto;
+}
