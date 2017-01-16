@@ -49,3 +49,24 @@ body {
   display: block;
   margin-left:  0px;
 }
+.resume li {
+  font-size: 20px;
+}
+.interview li {
+  font-size: 20px;
+}
+#carlos {
+  display: block;
+  margin: auto;
+}
+#carlosdesc h1 {
+  font-size: 28px;
+}
+#reynel {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+#reyneldesc h1 {
+  font-size: 28px;
+}
