@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BuddyNet, Non-Profit</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://use.fontawesome.com/f9001c39ac.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Carlos Tamez</h1>
-    <p>
-      <img class="photo" src="Carlos2.jpg">
-    </p>
-    <h2>Student</h2>
-    <h3>Monterrey, Mexico</h3>
-    <div>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:carlos@tamez.com.mx">Email</a></li>
-        <li><a href="http://twitter.com/ctamezp">Twitter</a></li>
-        <li><a href="http://facebook.com/carlos.tp">Facebook</a></li>
-      </ul>
+  <div class="container-fluid">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><img class="photo" id=Buddynet-img src="BuddyNet.jpeg"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About Buddynet <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="jumbotron" id=jumb1>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
     </div>
-    <div>
-      <h4 id="summary">Summary</h4>
-      <p>
-        Carlos studies at Kellogg School of Management, where he is studying his MBA degree. Carlos holds an MS in Engineering Management from Southern Methodist University and a BS in Industrial Engineering from Tec de Monterrey. Prior to his studies at Kellogg, Carlos worked for two and a half years at BCG consulting for different companies across several industries. Carlos is recently married to Monica Bolado and will go back to Mexico after he finishes his MBA degree.
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Associate, The Boston Consulting Group</h5>
-        <p>Working on strategy projects for different companies</p>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>I'm on the top</h1>
       </div>
     </div>
-    <div>
-      <h4 class="skills-and-hobbies">Skills</h4>
-      <ul>
-        <li>Data Analysis</li>
-        <li>Strategy</li>
-      </ul>
-    </div>
-    <div>
-      <h4 class="skills-and-hobbies">Hobbies</h4>
-      <ul>
-        <li>Soccer</li>
-        <li>Basketball</li>
-        <li>Playing piano</li>
-      </ul>
-    </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <h1>I'm on the left</h1>
+        </div>
+        <div class="col-xs-4">
+          <h1>I'm on the middle</h1>
+        </div>
+        <div class="col-xs-4">
+          <h1>I'm on the right</h1>
+        </div>
+      </div>
   </div>
 </body>
 </html>
