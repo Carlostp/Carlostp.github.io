@@ -20,5 +20,32 @@ body {
 }
 #learnmore {
   background-color:black;
-  
+}
+#intro h1 {
+  text-align:center;
+  font-family: 'Bree Serif', serif;
+}
+#Buddynet-img2 {
+  display: block;
+  margin: auto;
+}
+#defbuddynet h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 23px;
+}
+.resume-int h1 {
+  text-align:center;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  text-decoration: underline;
+}
+#interview {
+  height: 300px;
+  display: block;
+  margin-left: 70px;
+}
+#resumereview {
+  height: 300px;
+  display: block;
+  margin-left:  0px;
 }
