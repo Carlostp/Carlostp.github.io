@@ -70,3 +70,13 @@ body {
 #reyneldesc h1 {
   font-size: 28px;
 }
+#facebook {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+#mail {
+  display: block;
+  margin: auto;
+  height: 300px;
+}
