@@ -31,7 +31,11 @@ body {
 }
 #defbuddynet h1 {
   font-family: 'Bree Serif', serif;
-  font-size: 23px;
+  font-size: 28px;
+}
+#defbuddynet h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 22px;
 }
 .resume-int h1 {
   text-align:center;
